@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  DoubanFM
+//
+//  Created by bjmsp on 16/6/13.
+//  Copyright (c) 2016年 DSP. All rights reserved.
+//
+
+#ifndef DoubanFM_PrefixHeader_pch
+#define DoubanFM_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define MAIN_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define MAIN_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
+#define BACKGROUND_COLOR_WHITE [UIColor whiteColor]
+
+#define BACKGROUND_COLOR_HOME [UIColor colorWithRed:225.0/255.0 green:232.0/255.0 blue:229.0/255.0 alpha:1.0]
+#define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
+#define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
+#define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
+
+#endif
