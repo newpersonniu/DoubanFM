@@ -19,11 +19,12 @@
     // Do any additional setup after loading the view.
     
     HomeViewController *home = [[HomeViewController alloc] init];
+    home.view.backgroundColor = [UIColor clearColor];
     UINavigationController *nv1 = [[UINavigationController alloc] initWithRootViewController:home];
     nv1.title = @"FM1.0";
     
     HomeViewController *home2 = [[HomeViewController alloc] init];
-    home2.view.backgroundColor = [UIColor orangeColor];
+    home2.view.backgroundColor = [UIColor clearColor];
     UINavigationController *nv2 = [[UINavigationController alloc] initWithRootViewController:home2];
     nv2.title = @"FM2.0";
     

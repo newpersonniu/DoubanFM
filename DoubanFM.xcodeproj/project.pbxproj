@@ -14,6 +14,7 @@
 		E934ECC51D0E9640004DB038 /* DoubanFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ECC41D0E9640004DB038 /* DoubanFMTests.m */; };
 		E934ECD41D0EB69C004DB038 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ECD21D0EB69C004DB038 /* HomeViewController.m */; };
 		E934ECD51D0EB69C004DB038 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E934ECD31D0EB69C004DB038 /* HomeViewController.xib */; };
+		E98B986B1D126E0B00766378 /* PersonalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98B986A1D126E0B00766378 /* PersonalViewController.xib */; };
 		E99C80A01D1137660090D3E0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C809F1D1137660090D3E0 /* MainViewController.m */; };
 		E99C80A41D1139260090D3E0 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C80A31D1139260090D3E0 /* PersonalViewController.m */; };
 		E99C80A71D1153C50090D3E0 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C80A61D1153C50090D3E0 /* MainTabBarController.m */; };
@@ -44,6 +45,7 @@
 		E934ECD21D0EB69C004DB038 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		E934ECD31D0EB69C004DB038 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		E934ECD61D0EB6FB004DB038 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E98B986A1D126E0B00766378 /* PersonalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalViewController.xib; sourceTree = "<group>"; };
 		E99C809E1D1137660090D3E0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		E99C809F1D1137660090D3E0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		E99C80A21D1139260090D3E0 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				E99C80A21D1139260090D3E0 /* PersonalViewController.h */,
 				E99C80A31D1139260090D3E0 /* PersonalViewController.m */,
+				E98B986A1D126E0B00766378 /* PersonalViewController.xib */,
 			);
 			name = "Personal(个人)";
 			path = Personal;
@@ -261,6 +264,7 @@
 			files = (
 				E934ECB91D0E9640004DB038 /* LaunchScreen.xib in Resources */,
 				E934ECB61D0E9640004DB038 /* Images.xcassets in Resources */,
+				E98B986B1D126E0B00766378 /* PersonalViewController.xib in Resources */,
 				E934ECD51D0EB69C004DB038 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,12 +407,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhaoming cai (7F6RUTW6HK)";
 				GCC_PREFIX_HEADER = DoubanFM/PrefixHeader.pch;
 				INFOPLIST_FILE = DoubanFM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "95185e90-7c34-4bda-bb20-c150a36f1401";
 			};
 			name = Debug;
 		};
@@ -417,12 +421,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhaoming cai (7F6RUTW6HK)";
 				GCC_PREFIX_HEADER = DoubanFM/PrefixHeader.pch;
 				INFOPLIST_FILE = DoubanFM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "95185e90-7c34-4bda-bb20-c150a36f1401";
 			};
 			name = Release;
 		};

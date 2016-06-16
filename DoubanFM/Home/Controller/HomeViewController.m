@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view from its nib.
    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
     label.text = @"";
-    self.view.backgroundColor = BACKGROUND_COLOR_HOME;
+//    self.view.backgroundColor = BACKGROUND_COLOR_HOME;
 }
 
 - (void)didReceiveMemoryWarning {

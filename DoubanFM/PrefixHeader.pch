@@ -15,12 +15,12 @@
 #define MAIN_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define MAIN_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-#define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
+#define BACKGROUND_COLOR_CLEAR [UIColor clearColor]
 #define BACKGROUND_COLOR_WHITE [UIColor whiteColor]
 
-#define BACKGROUND_COLOR_HOME [UIColor colorWithRed:225.0/255.0 green:232.0/255.0 blue:229.0/255.0 alpha:1.0]
-#define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
-#define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
+#define BACKGROUND_COLOR_BASE [UIColor colorWithRed:225.0/255.0 green:232.0/255.0 blue:229.0/255.0 alpha:1.0]
+#define BACKGROUND_COLOR_BASE_DEEP [UIColor colorWithRed:212.0/255.0 green:221.0/255.0 blue:217/255.0 alpha:1.0]
+#define BACKGROUND_COLOR_GRAY [UIColor colorWithRed:230/255.0 green:230/255.0 blue:230/255.0 alpha:1.0]
 #define BACKGROUND_COLOR [UIColor colorWithRed:<#(CGFloat)#> green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:1.0]
 
 #endif
